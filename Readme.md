@@ -46,10 +46,6 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-
-
-
-
 ## Versions
 Listez les versions ici 
 _exemple :_
@@ -59,9 +55,9 @@ _exemple :_
 
 ## Auteurs
 Listez le(s) auteur(s) du projet ici !
-* _**Moi**_
+* _**Korohub**_
 
 ## Todo
 
 - Ajout dockerfile pour build une image
-- 
+- Ajout Stockage en BDD (MongoDB || postgresql)
