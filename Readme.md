@@ -46,6 +46,11 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
+rendez-vous sur http://localhost:8000/v1/quotes/{cat}
+{cat} est a remplacer par la catégorie, ex: life
+ex : http://localhost:8000/v1/quotes/life
+
+
 ## Versions
 Listez les versions ici 
 _exemple :_
