@@ -1,5 +1,4 @@
-## API scrape avec FastAPI
-
+# API scraping avec FastAPI
 
 
 [<img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png">](https://fastapi.tiangolo.com/)
@@ -46,9 +45,18 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
+Pour les quotes :
+
 rendez-vous sur http://localhost:8000/v1/quotes/{cat}
 {cat} est a remplacer par la catégorie, ex: life
 ex : http://localhost:8000/v1/quotes/life
+
+pour l'api ecommerce
+
+http://localhost:8000/v1/ecommerce/laptops
+ou 
+http://localhost:8000/v1/ecommerce/tablets
+
 
 
 ## Versions
@@ -66,3 +74,4 @@ Listez le(s) auteur(s) du projet ici !
 
 - Ajout dockerfile pour build une image
 - Ajout Stockage en BDD (MongoDB || postgresql)
+- Déploiement sur Héroku ou Vercel
