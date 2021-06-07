@@ -41,7 +41,3 @@ class Scraper():
             plist.append(item)
         return plist
 
-
-product = Scraper()
-
-product.scrapeecommerce('tablets')
