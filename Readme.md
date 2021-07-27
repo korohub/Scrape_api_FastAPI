@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ## Démarrage
 
 ```sh
-uvicorn main:app --reload
+python ./main.py
 ```
 
 Pour les quotes :
