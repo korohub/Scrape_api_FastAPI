@@ -72,6 +72,5 @@ Listez le(s) auteur(s) du projet ici !
 
 ## Todo
 
-- Ajout dockerfile pour build une image
 - Ajout Stockage en BDD (MongoDB || postgresql)
 - Déploiement sur Héroku ou Vercel
